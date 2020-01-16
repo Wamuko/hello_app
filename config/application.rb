@@ -16,6 +16,6 @@ module HelloApp
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
     config.hosts << "8221ddb11e394c059dcee0b11078ae35.vfs.cloud9.us-east-1.amazonaws.com"
-    config.hosts << "https://agile-hamlet-91928.herokuapp.com/"
+    config.hosts << "agile-hamlet-91928.herokuapp.com"
   end
 end
