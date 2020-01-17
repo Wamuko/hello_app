@@ -1,5 +1,4 @@
 class UsersController < ApplicationController
-  skip_before_action:varify_authenticity_token
   def new
     if params[:nickname]
       params[:nickname] = params[:userid]
